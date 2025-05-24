@@ -1,0 +1,52 @@
+version: "3.1"
+
+nlu:
+- intent: ask_nom_agence
+  examples: |
+    - chnowa esm l’agence?
+    - esm l’agence chnowa?
+    - nheb na3ref chnowa esm l’agence hedhi?
+    - win najem nalga esm l’agence?
+    - 3tini l’sm ta3 l’agence
+    - esmha chnowa exactement?
+
+- intent: ask_adress_agence
+  examples: |
+    - win mawjouda l’agence?
+    - chnowa l’adresse ta3 l’agence?
+    - win l’agence hedhi?
+    - adresse mta3hom win?
+    - fama numéro téléphone?
+    - 3tini adresse w numéro
+    - winhom exactement?
+    - win najem nmchi?
+
+- intent: ask_horaire_agence
+  examples: |
+    - chnowa l’horaire?
+    - 3andhom wa9t mo3ayan?
+    - tet7al 9addah?
+    - tetsakker 9addah?
+    - fama wa9t khass?
+    - win najem na3ref l’horaire?
+    - chnowa l’horaire fel weekend?
+    - tetsakker bchya?
+
+- intent: ask_link_agence
+  examples: |
+    - fama site officiel?
+    - link mta3hom?
+    - 3andhom site web?
+    - nheb narja3 site ta3hom
+    - win najem nalga l’link?
+    - 3tini site mta3hom
+
+- intent: ask_link_map
+  examples: |
+    - fama lien Google Maps?
+    - nheb nalga l’agence fil map
+    - 3tini link ta3 emplacement
+    - win nalga l’agence 3al Google?
+    - nheb nshoufha fil GPS
+    - 3andkom map ta3 l’agence?
+    - win tji exactement?

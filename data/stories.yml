@@ -1,30 +1,249 @@
 version: "3.1"
 
 stories:
-
 - story: happy path
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_great
+    - action: utter_happy
 
 - story: sad path 1
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_unhappy
+    - action: utter_cheer_up
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_happy
 
 - story: sad path 2
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_unhappy
+    - action: utter_cheer_up
+    - action: utter_did_that_help
+    - intent: deny
+    - action: utter_goodbye
+
+- story: ask adress agence
+  steps:
+    - intent: ask_adress_agence
+    - action: utter_ask_adress_agence
+
+- story: ask codes services
+  steps:
+    - intent: ask_codes_services
+    - action: utter_ask_codes_services
+
+- story: ask conference call
+  steps:
+    - intent: ask_conference_call
+    - action: utter_ask_conference_call
+
+- story: ask double call
+  steps:
+    - intent: ask_double_call
+    - action: utter_ask_double_call
+
+- story: ask doubliha
+  steps:
+    - intent: ask_doubliha
+    - action: utter_ask_doubliha
+
+- story: ask ehdia net
+  steps:
+    - intent: ask_ehdia_net
+    - action: utter_ask_ehdia_net
+
+- story: ask el 3échra
+  steps:
+    - intent: ask_el_3echra
+    - action: utter_ask_el_3echra
+
+- story: ask esim
+  steps:
+    - intent: ask_esim
+    - action: utter_ask_esim
+
+- story: ask fatoura
+  steps:
+    - intent: ask_fatoura
+    - action: utter_ask_fatoura
+
+- story: ask forfaits internet
+  steps:
+    - intent: ask_forfaits_internet
+    - action: utter_ask_forfaits_internet
+
+- story: ask forfaits partages
+  steps:
+    - intent: ask_forfaits_partages
+    - action: utter_ask_forfaits_partages
+
+- story: ask hadranet
+  steps:
+    - intent: ask_hadranet
+    - action: utter_ask_hadranet
+
+- story: ask horaire agence
+  steps:
+    - intent: ask_horaire_agence
+    - action: utter_ask_horaire_agence
+
+- story: ask inscription eleve
+  steps:
+    - intent: ask_inscription_eleve
+    - action: utter_ask_inscription_eleve
+
+- story: ask international
+  steps:
+    - intent: ask_international
+    - action: utter_ask_international
+
+- story: ask internet mobile
+  steps:
+    - intent: ask_internet_mobile
+    - action: utter_ask_internet_mobile
+
+- story: ask internet sabba
+  steps:
+    - intent: ask_internet_sabba
+    - action: utter_ask_internet_sabba
+
+- story: ask jaweknet
+  steps:
+    - intent: ask_jaweknet
+    - action: utter_ask_jaweknet
+
+- story: ask kallemni
+  steps:
+    - intent: ask_kallemni
+    - action: utter_ask_kallemni
+
+- story: ask kallemni remaining
+  steps:
+    - intent: ask_kallemni_remaining
+    - action: utter_ask_kallemni_remaining
+
+- story: ask link agence
+  steps:
+    - intent: ask_link_agence
+    - action: utter_ask_link_agence
+
+- story: ask link map
+  steps:
+    - intent: ask_link_map
+    - action: utter_ask_link_map
+
+- story: ask missed calls
+  steps:
+    - intent: ask_missed_calls
+    - action: utter_ask_missed_calls
+
+- story: ask mms
+  steps:
+    - intent: ask_mms
+    - action: utter_ask_mms
+
+- story: ask my tt
+  steps:
+    - intent: ask_my_tt
+    - action: utter_ask_my_tt
+
+- story: ask nom agence
+  steps:
+    - intent: ask_nom_agence
+    - action: utter_ask_nom_agence
+
+- story: ask number and offer
+  steps:
+    - intent: ask_number_and_offer
+    - action: utter_ask_number_and_offer
+
+- story: ask oh la voix
+  steps:
+    - intent: ask_oh_la_voix
+    - action: utter_ask_oh_la_voix
+
+- story: ask oh mega
+  steps:
+    - intent: ask_oh_mega
+    - action: utter_ask_oh_mega
+
+- story: ask pass etudiant
+  steps:
+    - intent: ask_pass_etudiant
+    - action: utter_ask_pass_etudiant
+
+- story: ask pass partout
+  steps:
+    - intent: ask_pass_partout
+    - action: utter_ask_pass_partout
+
+- story: ask pass roaming data
+  steps:
+    - intent: ask_pass_roaming_data
+    - action: utter_ask_pass_roaming_data
+
+- story: ask portabilite
+  steps:
+    - intent: ask_portabilite
+    - action: utter_ask_portabilite
+
+- story: ask prolongation validite
+  steps:
+    - intent: ask_prolongation_validite
+    - action: utter_ask_prolongation_validite
+
+- story: ask promo hajj
+  steps:
+    - intent: ask_promo_hajj
+    - action: utter_ask_promo_hajj
+
+- story: ask roaming
+  steps:
+    - intent: ask_roaming
+    - action: utter_ask_roaming
+
+- story: ask roaming prepaid
+  steps:
+    - intent: ask_roaming_prepaid
+    - action: utter_ask_roaming_prepaid
+
+- story: ask service menu
+  steps:
+    - intent: ask_service_menu
+    - action: utter_ask_service_menu
+
+- story: ask smart roaming
+  steps:
+    - intent: ask_smart_roaming
+    - action: utter_ask_smart_roaming
+
+- story: ask tourist sim
+  steps:
+    - intent: ask_tourist_sim
+    - action: utter_ask_tourist_sim
+
+- story: ask trankil
+  steps:
+    - intent: ask_trankil
+    - action: utter_ask_trankil
+
+- story: ask transfert internet
+  steps:
+    - intent: ask_transfert_internet
+    - action: utter_ask_transfert_internet
+
+- story: ask voicemail
+  steps:
+    - intent: ask_voicemail
+    - action: utter_ask_voicemail
+
+- story: ask wap portal
+  steps:
+    - intent: ask_wap_portal
+    - action: utter_ask_wap_portal

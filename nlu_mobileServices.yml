@@ -1,0 +1,191 @@
+version: "3.1"
+
+nlu:
+- intent: ask_doubliha
+  examples:
+    - Chnia Doubliha yé sahbi?
+    - Kif nshri Doubliha fel tel mte3i?
+    - Offre Doubliha chnia fiha yé bro?
+    - Béch nactivi Doubliha, chukran!
+
+- intent: ask_tourist_sim
+  examples:
+    - Chnia Tourist SIM yé weldi?
+    - Kif nji Tourist SIM bch nes2el 3liha?
+    - Offre Tourist SIM l-touristes, chnia fiha?
+    - Béch nactivi Tourist SIM, aide-moi!
+
+- intent: ask_jaweknet
+  examples:
+    - Code JawekNet yé zéhi?
+    - Kif nshri JawekNet fel tel?
+    - Chnia JawekNet yjib yé bro?
+    - Béch nactivi JawekNet, chukran!
+
+- intent: ask_trankil
+  examples:
+    - Chnia offre TRANKIL yé sahbi?
+    - Kif nji TRANKIL bch ncalmi?
+    - Offre TRANKIL chnia fiha?
+    - Béch nactivi TRANKIL, aide-moi!
+
+- intent: ask_hadranet
+  examples:
+    - Chnia HADRANET yé weldi?
+    - Kif nactivi HADRANET fel tel?
+    - Offre HADRANET chnia yjib?
+    - Béch nshri HADRANET, chukran!
+
+- intent: ask_pass_etudiant
+  examples:
+    - Chnia PASS ETUDIANT yé bro?
+    - Kif nji PASS ETUDIANT bch net3allem?
+    - Offre PASS ETUDIANT chnia fiha?
+    - Béch nactivi PASS ETUDIANT, aide-moi!
+
+- intent: ask_oh_mega
+  examples:
+    - Chnia OH!MÉGA yé sahbi?
+    - Kif nshri OH!MÉGA bch nfactura?
+    - Forfait OH!MÉGA chnia fiha?
+    - Béch nactivi OH!MÉGA, chukran!
+
+- intent: ask_oh_la_voix
+  examples:
+    - Chnia OH!LA VOIX yé weldi?
+    - Kif nji OH!LA VOIX fel facture?
+    - Forfait OH!LA VOIX chnia yjib?
+    - Béch nactivi OH!LA VOIX, aide-moi!
+
+- intent: ask_fatoura
+  examples:
+    - Chnia FATOURA yé zéhi?
+    - Kif nshri FATOURA fel tel mte3i?
+    - Offre FATOURA chnia fiha?
+    - Béch nactivi FATOURA, chukran!
+
+- intent: ask_forfaits_internet
+  examples:
+    - Chnia FORFAITS INTERNET yé bro?
+    - Kif nji internet barcha fel tel?
+    - Forfait internet chnia fiha yé sahbi?
+    - Béch nactivi FORFAITS INTERNET, aide-moi!
+
+- intent: ask_prolongation_validite
+  examples:
+    - Kif n9adem validité l-internet yé weldi?
+    - Chnia PROLONGATION DE VALIDITÉ?
+    - Béch nji validité internet toul, chukran!
+    - Code prolongation internet yé bro?
+
+- intent: ask_ehdia_net
+  examples:
+    - Kif nofril internet l-7ad yé sahbi?
+    - Chnia EHDIA NET yé zéhi?
+    - Béch nji EHDIA NET l-khouya?
+    - Code EHDIA NET chukran!
+
+- intent: ask_forfaits_partages
+  examples:
+    - Chnia FORFAITS PARTAGÉS yé weldi?
+    - Kif npartagi internet m3a 7ad?
+    - Forfait partagé chnia yjib yé bro?
+    - Béch nactivi FORFAITS PARTAGÉS, aide-moi!
+
+- intent: ask_internet_sabba
+  examples:
+    - Chnia INTERNET صبّة yé sahbi?
+    - Kif nji INTERNET صبّة fel tel?
+    - Offre صبّة chnia fiha?
+    - Béch nactivi INTERNET صبّة, chukran!
+
+- intent: ask_transfert_internet
+  examples:
+    - Kif ntransferi internet l-7ad yé bro?
+    - Chnia TRANSFERT INTERNET yé zéhi?
+    - Béch nji transfert internet l-khouya?
+    - Code transfert internet, chukran!
+
+- intent: ask_codes_services
+  examples:
+    - Chnia codes l-services yé weldi?
+    - Kif nshouf kol les codes mte3 services?
+    - Codes services chnia yjib yé bro?
+    - Béch nji codes l-services, aide-moi!
+
+- intent: ask_esim
+  examples:
+    - Chnia eSim yé sahbi?
+    - Kif nactivi eSim fel tel mte3i?
+    - eSim chnia yjib yé zéhi?
+    - Béch nji eSim, chukran!
+
+- intent: ask_portabilite
+  examples:
+    - Kif nbadel opérateur w n7afedh numérou?
+    - Chnia PORTABILITÉ yé bro?
+    - Béch nji PORTABILITÉ l-TT, aide-moi!
+    - Code portabilité yé weldi?
+
+- intent: ask_my_tt
+  examples:
+    - Chnia MY TT yé sahbi?
+    - Kif nactivi MY TT fel tel?
+    - Service MY TT chnia fiha yé bro?
+    - Béch nji MY TT, chukran!
+
+- intent: ask_el_3echra
+  examples:
+    - Chnia El 3échra yé zéhi?
+    - Kif nshri forfait El 3échra?
+    - Forfait El 3échra chnia yjib?
+    - Béch nactivi El 3échra, aide-moi!
+
+- intent: ask_inscription_eleve
+  examples:
+    - Kif nsajjel fel Inscription élève yé weldi?
+    - Chnia Inscription élève yé bro?
+    - Béch nji inscription élève, chukran!
+    - Service inscription élève chnia fiha?
+
+- intent: ask_international
+  examples:
+    - Chnia offre L'INTERNATIONAL yé sahbi?
+    - Kif nji appel international men TT?
+    - Offre L'INTERNATIONAL chnia fiha?
+    - Béch nactivi L'INTERNATIONAL, aide-moi!
+
+- intent: ask_roaming
+  examples:
+    - Chnia ROAMING yé weldi?
+    - Kif nactivi roaming barra Tounes?
+    - Service roaming chnia yjib yé bro?
+    - Béch nji ROAMING, chukran!
+
+- intent: ask_pass_partout
+  examples:
+    - Chnia PASS-PARTOUT yé zéhi?
+    - Kif nshri PASS-PARTOUT l-roaming?
+    - Offre PASS-PARTOUT chnia fiha?
+    - Béch nactivi PASS-PARTOUT, aide-moi!
+
+- intent: ask_pass_roaming_data
+  examples:
+    - Chnia PASS ROAMING DATA yé sahbi?
+    - Kif nji internet roaming barra?
+    - Pass roaming data chnia yjib yé bro?
+    - Béch nactivi PASS ROAMING DATA, chukran!
+
+- intent: ask_smart_roaming
+  examples:
+    - Chnia SMART ROAMING yé weldi?
+    - Kif nactivi SMART ROAMING fel tel?
+    - Service SMART ROAMING chnia fiha?
+    - Béch nji SMART ROAMING, aide-moi!
+
+- intent: ask_promo_hajj
+  examples:
+    - Chnia PROMO HAJJ yé sahbi?
+    - Kif nshri PROMO HAJJ bch nel7aj?
+    - Promo HAJJ chnia fiha yé bro?
+    - Béch nactivi PROMO HAJJ, chukran!

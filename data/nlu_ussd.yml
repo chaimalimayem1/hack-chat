@@ -1,0 +1,76 @@
+
+version: "3.1"
+
+nlu:
+- intent: ask_kallemni
+  examples: |
+    - Chnia code Kallemni yé weldi?
+    - Chukran, kifech nchouf Kallemni?
+    - Code Kallemni plz, barcha lazmou!
+    - Kif nactivi Kallemni men télephone?
+- intent: ask_service_menu
+  examples: |
+    - Chnia code l-menu l-koll mte3 les services?
+    - Béch nshri menu l-services, chukran!
+    - Code *100# chnia yjib?
+    - Kif nshouf kol chay fel services mte3 TT?
+- intent: ask_number_and_offer
+  examples: |
+    - Code t3awedni nshouf numérou w offra mte3i?
+    - Chnia num *146# yé bro?
+    - Kif nchouf chnia offra mte3i?
+    - Numérou w offra, chnia code?
+- intent: ask_kallemni_remaining
+  examples: |
+    - Kif nshouf Kallemni chukran li b9a?
+    - Code SMS Kallemni restants yé sahbi?
+    - Chnia code bch nchouf 9adech b9a Kallemni?
+    - Béch nshouf Kallemni restants, aide-moi!
+- intent: ask_double_call
+  examples: |
+    - Kif nactivi Double Appel yé zéhi?
+    - Code *43# chnia yemchi?
+    - Béch nactivi double appel, chukran!
+    - Kif nji nactivi Double Appel men tel?
+- intent: ask_internet_mobile
+  examples: |
+    - Chnia code l-internet mobile yé bro?
+    - Kif nactivi internet fel tel mte3i?
+    - Code 1400# chnia yemchi?
+    - Béch nji internet mobile, chukran aide-moi!
+- intent: ask_missed_calls
+  examples: |
+    - Kif nactivi Appels Manqués yé weldi?
+    - Code 621162# chnia yjib?
+    - Béch nshouf men 3ayyatli, chnia code?
+    - Chukran, code appels manqués?
+- intent: ask_voicemail
+  examples: |
+    - Code messagerie vocale yé sahbi?
+    - Kif nshouf messages vocaux mte3i?
+    - 1700 chnia yjib yé bro?
+    - Béch naccédi l-messagerie vocale, aide-moi!
+- intent: ask_mms
+  examples: |
+    - Chnia code MMS yé zéhi?
+    - Kif nactivi MMS fel tel mte3i?
+    - Code *110# chnia yemchi?
+    - Béch nji MMS, chukran!
+- intent: ask_wap_portal
+  examples: |
+    - Code l-WAP yé weldi?
+    - Kif naccédi l-wap.ahaya.tn?
+    - Chnia *120# yjib yé bro?
+    - Béch nshouf portail WAP, chukran!
+- intent: ask_roaming_prepaid
+  examples: |
+    - Kif nactivi roaming prépayé yé sahbi?
+    - Code 1171# chnia yemchi?
+    - Béch nji roaming w ana prépayé, aide-moi!
+    - Chnia code l-roaming prépayé?
+- intent: ask_conference_call
+  examples: |
+    - Code appel conférence yé bro?
+    - Kif nji nparli m3a barcha fl-tel?
+    - Chnia *115# yjib yé bro?
+    - Béch nshouf appel conférence, chukran!

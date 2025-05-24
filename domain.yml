@@ -1,3 +1,4 @@
+
 version: "3.1"
 
 intents:
@@ -8,26 +9,202 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - ask_adress_agence
+  - ask_codes_services
+  - ask_conference_call
+  - ask_double_call
+  - ask_doubliha
+  - ask_ehdia_net
+  - ask_el_3echra
+  - ask_esim
+  - ask_fatoura
+  - ask_forfaits_internet
+  - ask_forfaits_partages
+  - ask_hadranet
+  - ask_horaire_agence
+  - ask_inscription_eleve
+  - ask_international
+  - ask_internet_mobile
+  - ask_internet_sabba
+  - ask_jaweknet
+  - ask_kallemni
+  - ask_kallemni_remaining
+  - ask_link_agence
+  - ask_link_map
+  - ask_missed_calls
+  - ask_mms
+  - ask_my_tt
+  - ask_nom_agence
+  - ask_number_and_offer
+  - ask_oh_la_voix
+  - ask_oh_mega
+  - ask_pass_etudiant
+  - ask_pass_partout
+  - ask_pass_roaming_data
+  - ask_portabilite
+  - ask_prolongation_validite
+  - ask_promo_hajj
+  - ask_roaming
+  - ask_roaming_prepaid
+  - ask_service_menu
+  - ask_smart_roaming
+  - ask_tourist_sim
+  - ask_trankil
+  - ask_transfert_internet
+  - ask_voicemail
+  - ask_wap_portal
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hey ! Comment puis-je vous aider aujourd'hui ?"
 
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
+  - text: "Voici quelque chose pour vous remonter le moral :"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-  - text: "Did that help you?"
+  - text: "Est-ce que cela vous a aidé ?"
 
   utter_happy:
-  - text: "Great, carry on!"
+  - text: "Super, continuez comme ça !"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "À bientôt !"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "Je suis un bot, créé par Rasa."
+
+  utter_ask_adress_agence:
+  - text: "Voici une adresse d'agence Tunisie Telecom : Tunisie Telecom, Marsa, 71 983 600. Vous pouvez trouver d'autres adresses sur le site officiel ou en demandant des détails spécifiques !"
+
+  utter_ask_codes_services:
+  - text: "Les codes des services incluent des options comme *100# pour le menu des services, *146# pour votre numéro et offre, ou *124*N°GSM TT# pour Kallemni. Consultez le site de Tunisie Telecom pour la liste complète !"
+
+  utter_ask_conference_call:
+  - text: "Pour activer un appel en conférence, utilisez le code *115#. Ce service est gratuit !"
+
+  utter_ask_double_call:
+  - text: "Pour activer le double appel, composez *43#. Cela vous permet de gérer deux appels simultanément."
+
+  utter_ask_doubliha:
+  - text: "Doubliha est une offre prépayée de Tunisie Telecom. Pour plus de détails ou pour l'activer, consultez le site officiel ou composez *100#."
+
+  utter_ask_ehdia_net:
+  - text: "Ehdia NET vous permet de partager des données internet. Utilisez le code *140*7# pour ce service."
+
+  utter_ask_el_3echra:
+  - text: "El 3échra est un forfait prépayé. Pour plus d'informations ou pour l'activer, composez *100# ou visitez une agence Tunisie Telecom."
+
+  utter_ask_esim:
+  - text: "eSim est un service permettant d'utiliser une carte SIM virtuelle. Consultez une agence Tunisie Telecom ou le site officiel pour l'activer."
+
+  utter_ask_fatoura:
+  - text: "Fatoura est une offre à facture de Tunisie Telecom. Pour plus de détails, composez *100# ou visitez le site officiel."
+
+  utter_ask_forfaits_internet:
+  - text: "Les forfaits internet de Tunisie Telecom offrent des données mobiles. Vous pouvez les activer via *140*0# ou en consultant le menu *100#."
+
+  utter_ask_forfaits_partages:
+  - text: "Les forfaits partagés permettent de partager des données avec d'autres utilisateurs. Utilisez *140# ou *145# pour la clé pour ce service."
+
+  utter_ask_hadranet:
+  - text: "Hadranet est une offre prépayée pour l'internet. Pour plus d'informations, composez *100# ou visitez une agence."
+
+  utter_ask_horaire_agence:
+  - text: "Les horaires varient selon les agences. Par exemple, l'agence Tunisie Telecom à Marsa ferme à 18h30. Vérifiez les horaires spécifiques sur le site officiel ou en demandant l'adresse exacte."
+
+  utter_ask_inscription_eleve:
+  - text: "Le service Inscription élève est destiné aux étudiants. Pour plus de détails, composez *100# ou visitez une agence Tunisie Telecom."
+
+  utter_ask_international:
+  - text: "L'offre L'INTERNATIONAL permet des appels à l'étranger. Consultez *100# ou le site de Tunisie Telecom pour plus d'informations."
+
+  utter_ask_internet_mobile:
+  - text: "Pour activer l'internet mobile, composez *140*0#. Vous pouvez aussi consulter les forfaits via *100#."
+
+  utter_ask_internet_sabba:
+  - text: "Internet صبّة est une offre internet prépayée. Pour l'activer, composez *100# ou visitez une agence."
+
+  utter_ask_jaweknet:
+  - text: "JawekNet est une offre prépayée pour l'internet. Consultez *100# pour plus de détails ou pour l'activer."
+
+  utter_ask_kallemni:
+  - text: "Kallemni permet d'envoyer un SMS de rappel. Utilisez le code *124*N°GSM TT# pour ce service."
+
+  utter_ask_kallemni_remaining:
+  - text: "Pour vérifier les SMS Kallemni restants, composez *124*1#."
+
+  utter_ask_link_agence:
+  - text: "Voici un lien vers une agence Tunisie Telecom : http://www.tunisietelecom.tn/. Visitez le site officiel pour trouver d'autres agences."
+
+  utter_ask_link_map:
+  - text: "Voici un exemple de lien Google Maps pour une agence : https://www.google.com/maps/dir//Tunisie+Telecom,+Place+de+7+Novembre,+Safsaf%D8%8C+Av.+Habib+Bourguiba,+La+Marsa. Vérifiez le site de Tunisie Telecom pour d'autres emplacements."
+
+  utter_ask_missed_calls:
+  - text: "Pour activer le service des appels manqués, composez *62*1162#."
+
+  utter_ask_mms:
+  - text: "Le service MMS est accessible via *110#. Consultez le portail WAP pour plus de détails."
+
+  utter_ask_my_tt:
+  - text: "My TT est un service de gestion de compte. Pour plus d'informations, composez *100# ou visitez une agence."
+
+  utter_ask_nom_agence:
+  - text: "Un exemple d'agence est 'Tunisie Telecom Marsa'. Consultez le site officiel pour la liste complète des agences."
+
+  utter_ask_number_and_offer:
+  - text: "Pour vérifier votre numéro et votre offre, composez *146#."
+
+  utter_ask_oh_la_voix:
+  - text: "L'offre OH!LA VOIX est un forfait à facture pour les appels. Consultez *100# pour plus de détails."
+
+  utter_ask_oh_mega:
+  - text: "OH!MÉGA est un forfait à facture. Pour l'activer ou en savoir plus, composez *100# ou visitez une agence."
+
+  utter_ask_pass_etudiant:
+  - text: "Pass Etudiant est une offre prépayée pour les étudiants. Consultez *100# ou une agence pour plus de détails."
+
+  utter_ask_pass_partout:
+  - text: "Pass-Partout est une offre pour le roaming. Consultez *100# ou le site officiel pour l'activer."
+
+  utter_ask_pass_roaming_data:
+  - text: "Pass Roaming Data permet d'utiliser des données en roaming. Utilisez *235# pour ce service."
+
+  utter_ask_portabilite:
+  - text: "Pour la portabilité (garder votre numéro en changeant d'opérateur), composez *172# pour obtenir votre code RIO."
+
+  utter_ask_prolongation_validite:
+  - text: "Pour prolonger la validité de votre forfait internet, consultez *100# ou une agence Tunisie Telecom."
+
+  utter_ask_promo_hajj:
+  - text: "Promo Hajj est une promotion spéciale pour le pèlerinage. Consultez *100# ou le site officiel pour plus de détails."
+
+  utter_ask_roaming:
+  - text: "Pour activer le service roaming, composez *117#. Consultez le site officiel pour plus d'informations."
+
+  utter_ask_roaming_prepaid:
+  - text: "Pour activer le roaming prépayé, composez *117*1#."
+
+  utter_ask_service_menu:
+  - text: "Pour accéder au menu de gestion de tous les services, composez *100#."
+
+  utter_ask_smart_roaming:
+  - text: "Smart Roaming permet des appels en roaming. Composez *147*le numéro de votre correspondant# pour l'activer."
+
+  utter_ask_tourist_sim:
+  - text: "Tourist SIM est une offre prépayée pour les touristes. Consultez *100# ou une agence pour l'activer."
+
+  utter_ask_trankil:
+  - text: "Trankil est une offre prépayée. Pour plus de détails, composez *100# ou visitez une agence."
+
+  utter_ask_transfert_internet:
+  - text: "Pour transférer des données, composez *240#. Consultez *100# pour plus d'options."
+
+  utter_ask_voicemail:
+  - text: "Pour accéder à la messagerie vocale, composez 1700."
+
+  utter_ask_wap_portal:
+  - text: "Le portail WAP est accessible via *120# ou en visitant wap.ahaya.tn."
 
 session_config:
   session_expiration_time: 60
