@@ -1,3 +1,4 @@
+
 version: "3.1"
 
 stories:
@@ -247,3 +248,18 @@ stories:
   steps:
     - intent: ask_wap_portal
     - action: utter_ask_wap_portal
+
+- story: ask fix internet services
+  steps:
+    - intent: ask_fix_internet_services
+    - action: utter_ask_fix_internet_services
+
+- story: ask advertissement services
+  steps:
+    - intent: ask_advertissement_services
+    - action: utter_ask_advertissement_services
+
+- story: grateful for help
+  steps:
+    - intent: grateful
+    - action: utter_grateful    

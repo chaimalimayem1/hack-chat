@@ -1,0 +1,27 @@
+version: "3.1"
+
+nlu:
+- intent: ask_fix_internet_services
+  examples: |
+    # Dialecte tunisien
+    - Chnuwa les offres fixes w internet mte3 Tunisie Telecom ?
+    - Ekteb li lista mte3 services fixes w internet ?
+    - Shnu les services fixes eli njem nshrihom men TT ?
+    - Hani lista mte3 el-offres fixes w internet ?
+    - Tnajjem t3awenni b lista mte3 services fixes w internet ?
+    - Chnuwa el-offres internet w fixes eli mawjouda ?
+    - Fama codes bash nshri services fixes w internet ?
+    - Hani les offres w options fixes w internet eli njem nactivéhom ?
+    - Chnuwa les services mte3 el-internet fixes ?
+    - Tshri 3la les offres fixes w services internet mte3 TT ?
+    # Français
+    - Quelles sont les offres fixes et internet de Tunisie Telecom ?
+    - Peux-tu me donner la liste des services fixes et internet ?
+    - Quels sont les services fixes disponibles chez Tunisie Telecom ?
+    - Donne-moi la liste des offres fixes et internet.
+    - Peux-tu m'aider avec les services fixes et internet ?
+    - Quelles sont les offres fixes et internet disponibles ?
+    - Y a-t-il des codes pour les services fixes et internet ?
+    - Quelles sont les options fixes et internet que je peux activer ?
+    - Liste des services pour l'internet fixe ?
+    - Peux-tu me parler des offres fixes et services internet de Tunisie Telecom ?

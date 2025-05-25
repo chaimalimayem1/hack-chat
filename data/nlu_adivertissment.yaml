@@ -1,0 +1,47 @@
+version: "3.1"
+
+nlu:
+- intent: ask_advertissement_services
+  examples: |
+    # Dialecte tunisien
+    - Chnuwa les services annonces mte3 Tunisie Telecom ?
+    - Ekteb li lista mte3 services mte3 el-annonces ?
+    - Shnu les services mte3 musique w jeux wala culture eli njem nshrihom ?
+    - Hani lista mte3 el-annonces mte3 TT ?
+    - Tnajjem t3awenni b lista mte3 services annonces ?
+    - Chnuwa el-services mte3 gaming w VOD eli mawjouda ?
+    - Fama services annonces bash nshrihom men TT ?
+    - Hani les services mte3 musique w sport wala education ?
+    - Tshri 3la les services annonces mte3 Tunisie Telecom ?
+    - Chnuwa les offres mte3 jeux quiz w services divers ?
+    - Fama haja mte3 musique wala VOD 3and TT ?
+    - Shnu les jeux quiz eli njem nel3abhom ?
+    - Tnajjem t9olli 3la services gaming mte3 Tunisie Telecom ?
+    - Chnuwa el-services mte3 sport wala culture ?
+    - Hani el-offres mte3 education wala services divers ?
+    - Fama services zeda mte3 annonces njem nactivéhom ?
+    - Shnu el-annonces mte3 TT lil musique w gaming ?
+    - Tshri 3la Play VOD wala TT Game Zone ?
+    - Fama quizat wala jeux zeda 3and TT ?
+    - Chnuwa Mammou El 3in wala 9issati by TT ?
+    # Français
+    - Quels sont les services d'annonces de Tunisie Telecom ?
+    - Peux-tu me donner la liste des services d'annonces ?
+    - Quels sont les services de musique, jeux ou culture disponibles ?
+    - Donne-moi la liste des annonces de Tunisie Telecom.
+    - Peux-tu m'aider avec les services d'annonces ?
+    - Quels sont les services de gaming et VOD disponibles ?
+    - Y a-t-il des services d'annonces que je peux activer ?
+    - Liste des services de musique, sport ou éducation ?
+    - Parle-moi des services d'annonces de Tunisie Telecom.
+    - Quelles sont les offres de jeux quiz et services divers ?
+    - Y a-t-il des services de musique ou VOD chez Tunisie Telecom ?
+    - Quels sont les jeux quiz que je peux jouer ?
+    - Peux-tu me parler des services de gaming de Tunisie Telecom ?
+    - Quels sont les services de sport ou de culture ?
+    - Donne-moi les offres d'éducation ou de services divers.
+    - Y a-t-il d'autres services d'annonces que je peux activer ?
+    - Quelles sont les annonces de Tunisie Telecom pour la musique et le gaming ?
+    - Parle-moi de Play VOD ou TT Game Zone.
+    - Y a-t-il des quiz ou jeux supplémentaires chez Tunisie Telecom ?
+    - C'est quoi Mammou El 3in ou 9issati by TT ?

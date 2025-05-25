@@ -16,6 +16,19 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - hi there
+    - 3asleemaa w mar7bee bik  
+    - ahla w sahla
+    - salam alaykom 
+    - slm 
+    - slt 
+    - ahlaa bik 
+    - aslema
+    - bonjour
+    - salam
+    - hey
+    - choukrane
+
 
 - intent: goodbye
   examples: |
@@ -29,11 +42,30 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - beslema
+    - au revoir
+    - 3ala khir
+
+- intent: grateful
+  examples: |
+    - Merci beaucoup !
+    - 3aychek 
+    - chkoran
+    - tik sa7aa
+    - 3aychek enty
+    
+    
+
 
 - intent: affirm
   examples: |
     - yes
     - y
+    - ayy
+    - ouiii
+    - اي
+    - oui 
+    - sii
     - indeed
     - of course
     - that sounds good
@@ -42,7 +74,12 @@ nlu:
 - intent: deny
   examples: |
     - no
+    - nope
+    - no way
+    - nn
+    - nnn
     - n
+    - لا
     - never
     - I don't think so
     - don't like that
@@ -61,6 +98,10 @@ nlu:
     - I am amazing
     - I am going to save the world
     - super stoked
+    - tayaraa
+    - heyeel 
+    - behi barcha 
+    - raw3a
     - extremely good
     - so so perfect
     - so good
@@ -69,6 +110,13 @@ nlu:
 - intent: mood_unhappy
   examples: |
     - my day was horrible
+    - I am feeling very bad
+    - I ' m not okay 
+    - manich lebes
+    - hzina
+    - met9ala9
+    - fededd 
+    - khayeb barcha 
     - I am sad
     - I don't feel very well
     - I am disappointed
@@ -87,5 +135,9 @@ nlu:
   examples: |
     - are you a bot?
     - are you a human?
+    - enty chkoun
+    - chkounek
+    - t qui
+    - c qui
     - am I talking to a bot?
     - am I talking to a human?
