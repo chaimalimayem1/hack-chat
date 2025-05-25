@@ -24,11 +24,7 @@ models/
 .db
 *.sqlite3
 
-# Fichiers de configuration sensibles
-credentials.yml
-endpoints.yml
-config.yml
-
+S
 # Dossier de tests et sorties temporaires
 tests/
 output/
